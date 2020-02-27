@@ -7,7 +7,7 @@
     overflow-x: hidden;
         .contfirst{
             background-image: url(../images/backtone.png);
-            height: 230px;
+            height: 230px; 
             background-size: cover;
             max-width: 100%;
             padding: 0;
@@ -78,9 +78,12 @@
                                     }
                                 }
                             }
-                            .vsesanatorii{
+                            .vsesanatorii,.vsesanatorii2{
                                 margin: 16px auto;
                                 display:flex;justify-content:center;align-items:center;
+                            }
+                            .vsesanatorii2{
+                                display: none;
                             }
     }
     .navbar{
@@ -594,6 +597,19 @@ right: 5%;
     }
   }
   @media(max-width:1240px){
+      
+    .cont5{
+        height: 100vh;
+     .bottom-line {
+        padding-top: 200px;
+    }
+}
+    .cont1 .dropdowns .dropups{
+        grid-template-columns: 1fr 1fr 1fr ;
+    }
+    .cont1 .dropdowns{
+        height: 100%;
+    }
       .cont1{
         .contfirst .topline .c1{
             max-width: 30%;
@@ -634,4 +650,62 @@ right: 5%;
             width: 300px;
           }
       }
+      .cont5 footer{
+          grid-template-columns: 1fr 1fr;
+      }
+      .cont5 .ourtours {
+          height: 500px;
+      }
+     
   }
+  @media(max-width:580px){
+    .cont1 .dropdowns .dropups {
+        grid-template-columns: 1fr;
+    }
+    .cont1 .contfirst .logo1{
+        padding-top: 90px;
+    }
+    .cont1 .contfirst{
+        height: 250px;
+    }
+    .cont1 .contfirst .topline .c1{
+        max-width: 100%;
+        flex-basis: 100%;
+    }
+    .cont1 .contfirst .vsesanatorii2{
+        display: block;
+        padding-top: 20px;
+    }
+    .cont1 .contfirst .vsesanatorii{
+        display: none;
+    }
+    .cont5 footer{
+        grid-template-columns: 1fr;
+    }
+    .cont5{
+        height: 170vh;
+    }
+    .cont5 .bottom-line {
+        padding-top: 640px;
+    }
+    .cont4 .ordercall{
+        width: 200px;
+    }
+    .cont1 .contfirst .topline {
+    .c3{
+        padding: 0;
+        max-width: 40%;
+        flex-basis: 40%;
+        
+    }
+    .c2{
+        max-width: 60%;
+        flex-basis: 60%;  
+    }
+    .select{
+        max-width: 20%;
+        flex-basis: 20%;  
+    }
+}
+  }
+ 
