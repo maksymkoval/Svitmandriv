@@ -1,0 +1,610 @@
+.cont1 {
+  background-image: url(../images/mainback.png);
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-x: hidden;
+}
+.cont1 .contfirst {
+  background-image: url(../images/backtone.png);
+  height: 230px;
+  background-size: cover;
+  max-width: 100%;
+  padding: 0;
+}
+.cont1 .contfirst .topline {
+  height: 70px;
+  width: 90vw;
+  margin: auto;
+  border-bottom: 1px solid #8E6954;
+}
+.cont1 .contfirst .topline .contacts {
+  padding: 0;
+}
+.cont1 .contfirst .topline .c1 {
+  max-width: 16.6%;
+  flex-basis: 16.6%;
+}
+.cont1 .contfirst .topline .c2 {
+  background-color: #4A1F07;
+  height: 100%;
+  max-width: 21%;
+  flex-basis: 21%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #C66A36;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  font-family: 'Montserrat';
+}
+.cont1 .contfirst .topline .c2:hover {
+  background-color: #B78131;
+  color: #4A1F07;
+  transition: all ease-in-out 1s;
+}
+.cont1 .contfirst .topline .c2 span {
+  padding-left: 10px;
+}
+.cont1 .contfirst .topline .c3 {
+  background-color: #8E6954;
+  height: 100%;
+  max-width: 24%;
+  flex-basis: 24%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #5B2100;
+}
+.cont1 .contfirst .topline .select {
+  max-width: 4%;
+  flex-basis: 4%;
+}
+.cont1 .contfirst .topline .select select,
+.cont1 .contfirst .topline .select option {
+  width: 100%;
+  background-color: transparent;
+  color: white;
+  border: none;
+  padding-left: 5px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  height: 100%;
+  font-family: 'Montserrat';
+}
+.cont1 .contfirst .vsesanatorii {
+  margin: 16px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cont1 .navbar .navbar-collapse .navbar-nav {
+  width: 90%;
+  margin: auto;
+}
+.cont1 .navbar .navbar-collapse .navbar-nav .nav-item {
+  flex-basis: 12.5%;
+  max-width: 12.5%;
+}
+.cont1 .navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
+  color: white;
+  font-style: normal;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: #FFFFFF;
+}
+.cont1 .tours {
+  max-width: 90%;
+  padding-bottom: 25px;
+}
+.cont1 .tours .h1-slider .textmain h1 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 56px;
+  line-height: 62px;
+  color: #FFFFFF;
+  font-family: 'Montserrat';
+}
+.cont1 .tours .h1-slider .textmain p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 40px;
+  color: #FFFFFF;
+  font-family: 'Montserrat';
+}
+.cont1 .tours .h1-slider .carousel-item {
+  width: 100%;
+  height: 350px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0;
+}
+.cont1 .carousel-control-prev-icon,
+.cont1 .carousel-control-next-icon {
+  height: 50px;
+  width: 50px;
+  outline: black;
+  background-size: 50%, 50%;
+  background-image: none;
+  background-color: white;
+  position: absolute;
+}
+.cont1 .carousel-control-next-icon {
+  right: 0;
+}
+.cont1 .carousel-control-prev-icon {
+  left: 0;
+}
+.cont1 .carousel-control-next-icon:after {
+  content: '>';
+  font-size: 35px;
+  color: #353232;
+}
+.cont1 .carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 35px;
+  color: #353232;
+}
+.cont1 .dropdowns {
+  background-image: url(../images/bottomrect.png);
+  width: 100%;
+  height: 70px;
+}
+.cont1 .dropdowns .dropups {
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.cont1 .dropdowns .dropups .dropup {
+  height: 70px;
+}
+.cont1 .dropdowns .dropups .dropup .dropdown-menu {
+  background-color: #8E6954;
+  top: -70% !important;
+  left: 150%!important;
+  padding: 0!important;
+}
+.cont1 .dropdowns .dropups .dropup .dropdown-menu .dropdown-item {
+  color: white;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  font-family: 'Montserrat';
+  line-height: 3;
+}
+.cont1 .dropdowns .dropups .dropup .dropdown-menu .dropdown-item:hover {
+  background-color: #4A1F07;
+}
+.cont1 .dropdowns .dropups .dropup .dropdown-toggle {
+  background-color: transparent;
+  font-family: 'Montserrat';
+  border: none;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  padding: 0;
+}
+.cont1 .dropdowns .dropups .dropup .dropdown-toggle::after {
+  content: "︿";
+  border: none;
+}
+.cont1 .dropdowns .dropups .dropup .dropdown-toggle.show {
+  background-color: transparent;
+  font-family: 'Montserrat';
+  border: none;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+}
+.cont1 .dropdowns .dropups .dropup .dropdown-toggle.show::after {
+  content: "﹀";
+  border: none;
+}
+.cont2 {
+  width: 90%;
+  margin: auto;
+}
+.cont2 .resorts {
+  padding-top: 20px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #777777;
+}
+.cont2 .resorts span {
+  font-weight: 500;
+  color: #333333;
+}
+.cont2 .sanattrusk {
+  background-image: url(../images/resorttruskavets.png);
+  font-family: 'Montserrat';
+  width: 100%;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+.cont2 .allresorts {
+  padding-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-row-gap: 50px;
+  grid-column-gap: 30px;
+}
+.cont2 .allresorts .box .resortphoto {
+  margin: auto;
+  width: 100%;
+}
+.cont2 .allresorts .box .advantages {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 18px;
+  color: #FFFFFF;
+  font-family: 'Montserrat';
+}
+.cont2 .allresorts .box .advantages .best {
+  background-color: #B78131;
+  border-radius: 10%;
+}
+.cont2 .allresorts .box .advantages .discount {
+  background-color: #e44242;
+  border-radius: 10%;
+}
+.cont2 .allresorts .box .advantages .pool {
+  background-color: #0e0e4b;
+  border-radius: 10%;
+}
+.cont2 .allresorts .box .advantages .springs {
+  background-color: #610b0b;
+  border-radius: 10%;
+}
+.cont2 .allresorts .box .advantages .spa {
+  background-color: #1cb997;
+  border-radius: 10%;
+}
+.cont2 .allresorts .box .priveleges {
+  padding: 10px 0;
+}
+.cont2 .allresorts .box .priveleges img {
+  padding-right: 10px;
+}
+.cont2 .allresorts .box .resortname {
+  padding: 10px 0;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  color: #333333;
+  font-family: 'Open Sans';
+}
+.cont2 .allresorts .box .details {
+  max-width: 85%;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #777777;
+  font-family: 'Montserrat';
+}
+.cont2 .allresorts .box .price1 {
+  padding: 38px 0 0 0;
+}
+.cont2 .allresorts .box .price,
+.cont2 .allresorts .box .price1,
+.cont2 .allresorts .box .price2,
+.cont2 .allresorts .box .price3 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  color: #333333;
+  font-family: 'Montserrat';
+}
+.cont2 .allresorts .box .price2 {
+  color: #009120;
+}
+.cont2 .allresorts .box .price2 span {
+  text-decoration: line-through;
+  color: #777777;
+}
+.cont2 .allresorts .box .forperson {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #777777;
+  font-family: 'Montserrat';
+}
+.cont2 .allresorts .box button {
+  width: 100%;
+  height: 44px;
+  margin-bottom: 10px;
+}
+.cont2 .allresorts .box .reserve {
+  background: #B78131;
+  border-radius: 3px;
+  font-style: normal;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+.cont2 .allresorts .box .reserve:hover {
+  background: #B76D00;
+  transition: all ease-in-out 0.5s;
+}
+.cont2 .allresorts .box .more {
+  border: 1px solid #B78131;
+  box-sizing: border-box;
+  border-radius: 3px;
+  font-style: normal;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #B78131;
+  background-color: white;
+}
+.cont2 .allresorts .box .more:hover {
+  border: 3px solid #B78131;
+  transition: all ease-in-out 0.5s;
+}
+.cont3 {
+  padding-top: 50px;
+  width: 70%;
+  padding-bottom: 70px;
+  margin: auto;
+}
+.cont3 .seo {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  color: #333333;
+}
+.cont3 .scrollable {
+  height: 315px;
+  overflow-y: scroll;
+  padding: 20px 20px 20px 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  color: #777777;
+  font-family: 'Open Sans';
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.cont4 {
+  width: 100%;
+  height: 800px;
+  background-image: url(../images/mountain.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.cont4 .help {
+  width: 90%;
+  margin: auto;
+  padding-top: 50px;
+}
+.cont4 .help .needhelp {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  display: flex;
+  align-items: center;
+  color: #333333;
+}
+.cont4 .help .ourspecialists {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333333;
+}
+.cont4 .help img {
+  padding-top: 15px;
+}
+.cont4 .callback {
+  position: absolute;
+  bottom: 190px;
+  right: 5%;
+}
+.cont4 .ordercall {
+  padding-left: 35px;
+  right: 38%;
+  height: 53px;
+  width: 365px;
+  background-color: white;
+  border: none;
+  position: absolute;
+  bottom: 178px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 11px;
+  line-height: 13px;
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+  letter-spacing: 3px;
+}
+.cont5 {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, #282b31 11.29%, rgba(0, 0, 0, 0) 90.3%), url(../images/bottomback.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.cont5 footer {
+  width: 90%;
+  height: 650px;
+  margin: auto;
+  padding-top: 150px;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+}
+.cont5 footer .contacttour .contacting {
+  padding-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr 6fr;
+}
+.cont5 footer .contacttour .contacting .email-phone {
+  display: grid;
+  grid-template-columns: 1fr ;
+}
+.cont5 footer .contacttour .contacting .email-phone img {
+  padding-top: 20px;
+}
+.cont5 footer .contacttour .contacting .email-phone .agreement {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: flex-end;
+  letter-spacing: 1px;
+  color: #FFFFFF;
+  opacity: 0.5;
+  padding-top: 20px;
+}
+.cont5 footer .contacttour .contacting .logos img {
+  padding-top: 25px;
+}
+.cont5 .aboutus,
+.cont5 .ourtours,
+.cont5 .categories {
+  display: grid;
+  height: 250px;
+  grid-template-columns: 1fr;
+  text-align: center;
+}
+.cont5 .aboutus img,
+.cont5 .ourtours img,
+.cont5 .categories img {
+  margin: auto;
+  padding-bottom: 15px;
+}
+.cont5 .aboutus h4,
+.cont5 .ourtours h4,
+.cont5 .categories h4 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.cont5 .aboutus p,
+.cont5 .ourtours p,
+.cont5 .categories p {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 30px;
+  letter-spacing: 1px;
+  color: #9B989B;
+  mix-blend-mode: normal;
+}
+.cont5 .ourtours {
+  height: 500px;
+}
+.cont5 .bottom-line {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #A29FA2;
+}
+.cont5 .bottom-line .mark {
+  font-weight: bold;
+  background-color: transparent;
+}
+@media (max-width: 1240px) {
+  .cont1 .contfirst .topline .c1 {
+    max-width: 30%;
+    flex-basis: 30%;
+  }
+  .cont1 .contfirst .topline .c2 {
+    max-width: 45%;
+    flex-basis: 45%;
+  }
+  .cont1 .contfirst .topline .select {
+    max-width: 10%;
+    flex-basis: 10%;
+  }
+  .cont1 .contfirst .logo1 {
+    padding-top: 50px;
+  }
+  .cont2 .allresorts {
+    grid-template-columns: 1fr;
+  }
+  .cont5 footer {
+    grid-template-columns: 1fr;
+    padding-top: 0;
+  }
+  .cont4 .callback {
+    right: 0!important;
+  }
+  .cont4 .ordercall {
+    right: calc(10%-150px);
+    width: 300px;
+  }
+}
